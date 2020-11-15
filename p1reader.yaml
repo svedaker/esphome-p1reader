@@ -1,7 +1,7 @@
 esphome:
   name: electricity_meter
-  platform: ESP8266
-  board: nodemcu
+  platform: ESP32
+  board: esp32cam
   includes:
     - p1reader.h
 
